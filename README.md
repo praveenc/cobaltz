@@ -2,7 +2,7 @@
 
 A refined dark theme inspired by Cobalt2, featuring deep blue tones, vibrant syntax highlighting, and a signature golden cursor. Available for multiple editors and terminals.
 
-![Cobaltz Theme](https://raw.githubusercontent.com/praveenc/cobaltz/main/images/cobaltz-preview.png)
+![Cobaltz Theme](.github/images/cobaltz-preview.png)
 
 ## Features
 
@@ -114,17 +114,11 @@ The theme automatically switches between dark and light based on your system pre
 
 ## Screenshots
 
-### Zed Editor (Dark)
-![Zed Dark](https://raw.githubusercontent.com/praveenc/cobaltz/main/images/zed-dark.png)
+### Zed Editor
+![Zed](.github/images/cobaltz-zed.png)
 
-### Zed Editor (Light)
-![Zed Light](https://raw.githubusercontent.com/praveenc/cobaltz/main/images/zed-light.png)
-
-### VS Code
-![VS Code](https://raw.githubusercontent.com/praveenc/cobaltz/main/images/vscode-dark.png)
-
-### Terminal
-![Terminal](https://raw.githubusercontent.com/praveenc/cobaltz/main/images/terminal.png)
+### Kiro Editor
+![Kiro](.github/images/cobaltz-kiro.png)
 
 ## Contributing
 
