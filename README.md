@@ -29,29 +29,29 @@ A refined dark theme inspired by Cobalt2, featuring deep blue tones, vibrant syn
 
 | Element | Color | Preview |
 | ------- | ----- | ------- |
-| Background | `#0F2438` | ![#0F2438](https://via.placeholder.com/20/0F2438/0F2438) |
-| Foreground | `#FFFFFF` | ![#FFFFFF](https://via.placeholder.com/20/FFFFFF/FFFFFF) |
-| Cursor | `#FFCC00` | ![#FFCC00](https://via.placeholder.com/20/FFCC00/FFCC00) |
-| Keywords | `#F1A23A` | ![#F1A23A](https://via.placeholder.com/20/F1A23A/F1A23A) |
-| Functions | `#82AAFF` | ![#82AAFF](https://via.placeholder.com/20/82AAFF/82AAFF) |
-| Strings | `#6FD640` | ![#6FD640](https://via.placeholder.com/20/6FD640/6FD640) |
-| Variables | `#ED99FA` | ![#ED99FA](https://via.placeholder.com/20/ED99FA/ED99FA) |
-| Comments | `#3B86F7` | ![#3B86F7](https://via.placeholder.com/20/3B86F7/3B86F7) |
-| Types | `#80CBC4` | ![#80CBC4](https://via.placeholder.com/20/80CBC4/80CBC4) |
-| Numbers | `#EA79A3` | ![#EA79A3](https://via.placeholder.com/20/EA79A3/EA79A3) |
+| Background | `#0F2438` | ![#0F2438](https://img.shields.io/badge/0F2438-0F2438?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
+| Foreground | `#FFFFFF` | ![#FFFFFF](https://img.shields.io/badge/FFFFFF-FFFFFF?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
+| Cursor | `#FFCC00` | ![#FFCC00](https://img.shields.io/badge/FFCC00-FFCC00?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
+| Keywords | `#F1A23A` | ![#F1A23A](https://img.shields.io/badge/F1A23A-F1A23A?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
+| Functions | `#82AAFF` | ![#82AAFF](https://img.shields.io/badge/82AAFF-82AAFF?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
+| Strings | `#6FD640` | ![#6FD640](https://img.shields.io/badge/6FD640-6FD640?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
+| Variables | `#ED99FA` | ![#ED99FA](https://img.shields.io/badge/ED99FA-ED99FA?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
+| Comments | `#3B86F7` | ![#3B86F7](https://img.shields.io/badge/3B86F7-3B86F7?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
+| Types | `#80CBC4` | ![#80CBC4](https://img.shields.io/badge/80CBC4-80CBC4?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
+| Numbers | `#EA79A3` | ![#EA79A3](https://img.shields.io/badge/EA79A3-EA79A3?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
 
 ### Light Theme
 
 | Element | Color | Preview |
 | ------- | ----- | ------- |
-| Background | `#FAFBFC` | ![#FAFBFC](https://via.placeholder.com/20/FAFBFC/FAFBFC) |
-| Foreground | `#0F2438` | ![#0F2438](https://via.placeholder.com/20/0F2438/0F2438) |
-| Cursor | `#2563EB` | ![#2563EB](https://via.placeholder.com/20/2563EB/2563EB) |
-| Keywords | `#D97706` | ![#D97706](https://via.placeholder.com/20/D97706/D97706) |
-| Functions | `#2563EB` | ![#2563EB](https://via.placeholder.com/20/2563EB/2563EB) |
-| Strings | `#059669` | ![#059669](https://via.placeholder.com/20/059669/059669) |
-| Variables | `#9333EA` | ![#9333EA](https://via.placeholder.com/20/9333EA/9333EA) |
-| Comments | `#6B7280` | ![#6B7280](https://via.placeholder.com/20/6B7280/6B7280) |
+| Background | `#FAFBFC` | ![#FAFBFC](https://img.shields.io/badge/FAFBFC-FAFBFC?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
+| Foreground | `#0F2438` | ![#0F2438](https://img.shields.io/badge/0F2438-0F2438?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
+| Cursor | `#2563EB` | ![#2563EB](https://img.shields.io/badge/2563EB-2563EB?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
+| Keywords | `#D97706` | ![#D97706](https://img.shields.io/badge/D97706-D97706?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
+| Functions | `#2563EB` | ![#2563EB](https://img.shields.io/badge/2563EB-2563EB?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
+| Strings | `#059669` | ![#059669](https://img.shields.io/badge/059669-059669?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
+| Variables | `#9333EA` | ![#9333EA](https://img.shields.io/badge/9333EA-9333EA?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
+| Comments | `#6B7280` | ![#6B7280](https://img.shields.io/badge/6B7280-6B7280?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
 
 ## Installation
 

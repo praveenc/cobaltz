@@ -2,5 +2,6 @@
   "name": "Cobaltz",
   "version": "1.0.0",
   "minAppVersion": "1.0.0",
-  "author": "@praveenc"
+  "author": "@praveenc",
+  "authorURL": "https://github.com/praveenc/cobaltz"
 }
