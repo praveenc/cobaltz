@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code
+*.vsix
+.vscode/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Editor backups
+*~
+*.swp
+*.swo
+
+# Build outputs
+dist/
+build/
+
+# Custom
+.kiro/

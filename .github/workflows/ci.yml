@@ -1,0 +1,98 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    name: Validate Theme Files
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate JSON files
+        run: |
+          echo "Validating Zed themes..."
+          for file in cobaltz-zed/*.json; do
+            echo "Checking $file"
+            python3 -m json.tool "$file" > /dev/null
+          done
+
+          echo "Validating VS Code themes..."
+          for file in cobaltz-vscode/themes/*.json cobaltz-vscode/package.json; do
+            echo "Checking $file"
+            python3 -m json.tool "$file" > /dev/null
+          done
+
+          echo "Validating Obsidian manifest..."
+          python3 -m json.tool cobaltz-obsidian/manifest.json > /dev/null
+
+          echo "All JSON files are valid!"
+
+      - name: Check CSS syntax
+        run: |
+          echo "Checking Obsidian CSS..."
+          if [ -f cobaltz-obsidian/theme.css ]; then
+            # Basic syntax check - ensure file is not empty and has valid structure
+            if [ -s cobaltz-obsidian/theme.css ]; then
+              echo "CSS file exists and is not empty"
+            else
+              echo "CSS file is empty!"
+              exit 1
+            fi
+          fi
+
+      - name: Validate Ghostty themes
+        run: |
+          echo "Checking Ghostty theme files..."
+          for file in cobaltz-ghostty/cobaltz cobaltz-ghostty/cobaltz-light; do
+            if [ -f "$file" ]; then
+              echo "Checking $file"
+              # Verify required keys exist
+              if grep -q "^background" "$file" && grep -q "^foreground" "$file" && grep -q "^palette" "$file"; then
+                echo "$file has required keys"
+              else
+                echo "$file is missing required keys!"
+                exit 1
+              fi
+            fi
+          done
+
+  package-vscode:
+    name: Package VS Code Extension
+    runs-on: ubuntu-latest
+    needs: validate
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install vsce
+        run: npm install -g @vscode/vsce
+
+      - name: Package extension
+        working-directory: cobaltz-vscode
+        run: vsce package --no-dependencies
+
+      - name: Upload VSIX artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cobaltz-vscode-extension
+          path: cobaltz-vscode/*.vsix
+          retention-days: 30

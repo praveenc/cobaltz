@@ -1,0 +1,47 @@
+# Cobaltz Theme for Ghostty
+# A refined Cobalt2 variant with deep blue tones
+
+# Base colors
+background = #0F2438
+foreground = #FFFFFF
+
+# Cursor
+cursor-color = #FFCC00
+cursor-text = #0F2438
+
+# Selection
+selection-background = #3D5A73
+selection-foreground = #FFFFFF
+
+# ANSI Colors (0-7: normal, 8-15: bright)
+# Black
+palette = 0=#0F2438
+palette = 8=#5C7A99
+
+# Red
+palette = 1=#EA4025
+palette = 9=#ED7482
+
+# Green
+palette = 2=#70D149
+palette = 10=#6FD640
+
+# Yellow
+palette = 3=#ECD146
+palette = 11=#F8D949
+
+# Blue
+palette = 4=#3B86F7
+palette = 12=#82AAFF
+
+# Magenta
+palette = 5=#EE7FF8
+palette = 13=#ED99FA
+
+# Cyan
+palette = 6=#95E5F8
+palette = 14=#95E5F8
+
+# White
+palette = 7=#F7F7F7
+palette = 15=#FFFFFF
