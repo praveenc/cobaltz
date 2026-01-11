@@ -114,11 +114,17 @@ The theme automatically switches between dark and light based on your system pre
 
 ## Screenshots
 
-### Zed Editor
-![Zed](.github/images/cobaltz-zed.png)
+### Zed Editor (Dark)
+![Zed Dark](.github/images/cobaltz-zed.png)
 
-### Kiro Editor
-![Kiro](.github/images/cobaltz-kiro.png)
+### Zed Editor (Light)
+![Zed Light](.github/images/cobaltz-light-zed.png)
+
+### Kiro Editor (Dark)
+![Kiro Dark](.github/images/cobaltz-kiro.png)
+
+### Kiro Editor (Light)
+![Kiro Light](.github/images/cobaltz-light-kiro.png)
 
 ## Contributing
 
