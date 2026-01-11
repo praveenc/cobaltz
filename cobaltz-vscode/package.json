@@ -1,11 +1,12 @@
 {
   "name": "cobaltz-theme",
-  "displayName": "Cobaltz",
-  "description": "A beautiful dark theme based on Cobalt2 with refined colors",
+  "displayName": "Cobaltz Theme",
+  "description": "A refined dark and light theme inspired by Cobalt2, featuring deep blue tones, vibrant syntax highlighting, and a signature golden cursor",
   "version": "1.0.0",
   "publisher": "praveen-chamarthi",
   "author": {
-    "name": "Praveen Chamarthi"
+    "name": "Praveen Chamarthi",
+    "url": "https://github.com/praveenc"
   },
   "engines": {
     "vscode": "^1.60.0"
@@ -16,10 +17,17 @@
   "keywords": [
     "theme",
     "dark",
+    "light",
     "cobalt",
     "cobaltz",
-    "color theme"
+    "color-theme",
+    "blue",
+    "syntax-highlighting"
   ],
+  "galleryBanner": {
+    "color": "#0F2438",
+    "theme": "dark"
+  },
   "contributes": {
     "themes": [
       {
@@ -38,5 +46,9 @@
     "type": "git",
     "url": "https://github.com/praveenc/cobaltz"
   },
+  "bugs": {
+    "url": "https://github.com/praveenc/cobaltz/issues"
+  },
+  "homepage": "https://github.com/praveenc/cobaltz#readme",
   "license": "MIT"
 }
