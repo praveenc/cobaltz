@@ -33,6 +33,17 @@ A refined Cobalt2 variant with the Cobaltz color palette for Ghostty terminal. I
 
 3. Reload Ghostty configuration
 
+### Background Transparency
+
+The theme files only define colors. To enable background transparency/opacity, add this to your Ghostty config (`~/.config/ghostty/config`):
+
+```text
+# Set background opacity (0.0 = fully transparent, 1.0 = fully opaque)
+background-opacity = 0.9
+```
+
+This setting works independently of the theme and allows you to adjust transparency to your preference.
+
 ### Option 2: Absolute Path
 
 Reference the theme file directly in your config:

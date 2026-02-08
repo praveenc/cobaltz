@@ -50,6 +50,16 @@ A refined Cobalt2 variant with the Cobaltz color palette.
 4. Select `cobaltz.itermcolors`
 5. Select "Cobaltz" from the presets
 
+### Background Transparency
+
+To enable background transparency after applying the theme:
+
+1. Open iTerm2 Preferences (`Cmd + ,`)
+2. Go to Profiles → Window
+3. Adjust the "Transparency" slider to your preference
+
+The Cobaltz color scheme is designed to work with iTerm2's transparency settings. After importing the theme, you can freely adjust the transparency slider without any conflicts.
+
 ### Font Setup
 
 In iTerm2:

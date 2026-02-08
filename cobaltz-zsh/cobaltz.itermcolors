@@ -229,8 +229,6 @@
 	<!-- Background Color - #0F2438 -->
 	<key>Background Color</key>
 	<dict>
-		<key>Alpha Component</key>
-		<real>1</real>
 		<key>Blue Component</key>
 		<real>0.21960784313725490</real>
 		<key>Color Space</key>
