@@ -23,10 +23,25 @@ A beautiful dark and light theme based on Cobalt2 with refined colors. Works wit
 
 ### Manual Installation
 
-1. Copy the `cobaltz-vscode` folder to your extensions directory:
-   - **macOS**: `~/.vscode/extensions/cobaltz-theme`
-   - **Windows**: `%USERPROFILE%\.vscode\extensions\cobaltz-theme`
-   - **Linux**: `~/.vscode/extensions/cobaltz-theme`
+1. Copy the `cobaltz-vscode` folder contents to your extensions directory:
+
+   ```bash
+   # macOS/Linux - VS Code
+   mkdir -p ~/.vscode/extensions
+   cp -r cobaltz-vscode ~/.vscode/extensions/cobaltz-vscode
+
+   # Cursor
+   mkdir -p ~/.cursor/extensions
+   cp -r cobaltz-vscode ~/.cursor/extensions/cobaltz-vscode
+
+   # Kiro
+   mkdir -p ~/.kiro/extensions
+   cp -r cobaltz-vscode ~/.kiro/extensions/cobaltz-vscode
+   ```
+
+   - **macOS**: `~/.vscode/extensions/cobaltz-vscode`
+   - **Windows**: `%USERPROFILE%\.vscode\extensions\cobaltz-vscode`
+   - **Linux**: `~/.vscode/extensions/cobaltz-vscode`
 
 2. Restart your editor
 
