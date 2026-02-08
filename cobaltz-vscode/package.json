@@ -8,6 +8,7 @@
     "name": "Praveen Chamarthi",
     "url": "https://github.com/praveenc"
   },
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.60.0"
   },

@@ -2,7 +2,7 @@
 
 A beautiful dark and light theme based on Cobalt2 with refined colors. Works with VS Code and all its forks (Cursor, Windsurf, Kiro, etc.).
 
-![Cobaltz VS Code](https://raw.githubusercontent.com/praveenc/cobaltz/main/images/vscode-dark.png)
+![Cobaltz VS Code](https://raw.githubusercontent.com/praveenc/cobaltz/main/.github/images/vscode-dark.png)
 
 ## Installation
 

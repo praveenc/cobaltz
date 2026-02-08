@@ -2,7 +2,7 @@
 
 A refined Cobalt2 variant with the Cobaltz color palette.
 
-![Cobaltz Terminal](https://raw.githubusercontent.com/praveenc/cobaltz/main/images/terminal.png)
+![Cobaltz Terminal](https://raw.githubusercontent.com/praveenc/cobaltz/main/cobaltz-zsh/terminal.png)
 
 ## Files
 
