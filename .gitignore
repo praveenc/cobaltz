@@ -27,3 +27,6 @@ build/
 
 # Custom
 .kiro/
+copt-output/
+BUGS.md
+GIT-OPS.md
