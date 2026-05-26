@@ -22,6 +22,7 @@ A refined dark theme inspired by Cobalt2, featuring deep blue tones, vibrant syn
 | [Obsidian](./cobaltz-obsidian/) | ✅ | ✅ | [Instructions](#obsidian) |
 | [Ghostty](./cobaltz-ghostty/) | ✅ | ✅ | [Instructions](#ghostty) |
 | [iTerm2 / Zsh](./cobaltz-zsh/) | ✅ | - | [Instructions](#iterm2--zsh) |
+| [Pi Coding Agent](./cobaltz-pi/) | ✅ | - | [Instructions](#pi-coding-agent) |
 
 ## Color Palette
 
@@ -99,6 +100,32 @@ The theme automatically switches between dark and light based on your system pre
    # Auto-switch based on system appearance
    theme = dark:cobaltz,light:cobaltz-light
    ```
+
+### Pi Coding Agent
+
+Install the Cobaltz theme for [Pi Coding Agent](https://github.com/earendil-works/pi):
+
+#### Option 1: Symlink
+
+```bash
+mkdir -p ~/.pi/agent/themes
+ln -s "$(pwd)/cobaltz-pi/cobaltz.json" ~/.pi/agent/themes/cobaltz.json
+```
+
+#### Option 2: Launch with theme flag
+
+```bash
+pi --theme ./cobaltz-pi/cobaltz.json
+```
+
+#### Option 3: Set in settings
+
+Add to `~/.pi/agent/settings.json`:
+```json
+{
+  "theme": "cobaltz"
+}
+```
 
 ### iTerm2 / Zsh
 
