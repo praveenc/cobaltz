@@ -19,6 +19,7 @@ A refined dark theme inspired by Cobalt2, featuring deep blue tones, vibrant syn
 | -------- | ---- | ----- | ------------ |
 | [Zed](./cobaltz-zed/) | ✅ | ✅ | [Instructions](#zed) |
 | [VS Code / Cursor / Kiro](./cobaltz-vscode/) | ✅ | ✅ | [Instructions](#vs-code) |
+| [KiroCrew](./cobaltz-kirocrew/) | ✅ | ✅ | [Instructions](#kirocrew) |
 | [Obsidian](./cobaltz-obsidian/) | ✅ | ✅ | [Instructions](#obsidian) |
 | [Ghostty](./cobaltz-ghostty/) | ✅ | ✅ | [Instructions](#ghostty) |
 | [iTerm2 / Zsh](./cobaltz-zsh/) | ✅ | - | [Instructions](#iterm2--zsh) |
@@ -78,6 +79,17 @@ Copy the `cobaltz-vscode` folder to:
 - **Linux**: `~/.vscode/extensions/cobaltz-theme`
 
 Works with VS Code forks: Cursor, Windsurf, Kiro, etc.
+
+### KiroCrew
+
+Cobaltz for KiroCrew is a standalone level-1 theme pack with dark and light palettes, readable chat and code surfaces, and Cobaltz-inspired file diffs.
+
+1. Clone or download this repository.
+2. In KiroCrew, open **Settings → Display → Install theme**.
+3. Select the `cobaltz-kirocrew` folder from your clone.
+4. Select **Cobaltz** from the theme picker. KiroCrew uses the corresponding palette when you switch between dark and light appearance.
+
+For pack details and update instructions, see [`cobaltz-kirocrew/README.md`](cobaltz-kirocrew/README.md).
 
 ### Obsidian
 

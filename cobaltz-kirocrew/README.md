@@ -1,26 +1,52 @@
 # Cobaltz for KiroCrew
 
-A KiroCrew color theme based on the owned Cobaltz Zed themes:
+Cobaltz is a KiroCrew theme pack built from the Cobaltz dark and light palettes. It brings the theme's deep blues, vivid syntax-inspired accents, and signature golden focus ring to KiroCrew's chat, composer, controls, and file-diff surfaces.
 
-- Dark: [`../cobaltz-zed/Cobaltz.json`](../cobaltz-zed/Cobaltz.json)
-- Light: [`../cobaltz-zed/Cobaltz-Light.json`](../cobaltz-zed/Cobaltz-Light.json)
+## Appearance
 
-It preserves Cobaltz's deep-blue dark surface, blue action accent, golden focus ring, and syntax-inspired colors. This is a level-1 theme pack: it supplies dark and light palettes plus scoped readability overrides for accent buttons and dark-mode chat surfaces, while leaving font selection to KiroCrew.
+### Dark
 
-## Install locally
+The dark palette uses a layered Cobaltz blue hierarchy so each workspace surface remains distinct:
 
-In KiroCrew, go to **Settings → Display → Install theme**, then select this folder:
+- The chat canvas uses a balanced blue (`#20354A`).
+- User messages use the deeper Cobaltz navy (`#0F2438`).
+- The composer and fenced-code surfaces use a darker blue (`#162B40`).
+- Primary controls use a restrained blue accent with white labels; focus uses Cobaltz gold (`#FFCC00`).
+- Inline code, suggested prompts, and semantic diffs receive scoped readability treatments for the dark canvas.
 
-```text
-/path/to/cobaltz/cobaltz-kirocrew
-```
+### Light
 
-KiroCrew validates the pack during installation. Reinstalling this folder after an edit updates the installed theme.
+The light palette pairs a clean near-white card surface with Cobaltz navy text, blue actions, and high-contrast green, red, and blue file-diff bands.
 
-## Pack files
+## Install
 
-- `theme.json` — KiroCrew theme manifest
-- `variables.json` — dark and light palettes using KiroCrew's supported color variables
+1. Clone or download this repository.
+2. In KiroCrew, open **Settings → Display → Install theme**.
+3. Select the `cobaltz-kirocrew` folder from your clone:
+
+   ```text
+   <path-to-cobaltz>/cobaltz-kirocrew
+   ```
+
+4. Select **Cobaltz** from the theme picker.
+5. Switch KiroCrew between dark and light appearance to use the corresponding Cobaltz palette.
+
+KiroCrew validates the pack during installation. To update it after pulling or editing the repository, return to **Install theme** and select the same folder again.
+
+## Pack contents
+
+- `theme.json` — manifest identifying the pack as a level-1 KiroCrew theme.
+- `variables.json` — dark and light Cobaltz palettes for KiroCrew surfaces, controls, feedback states, and diffs.
+- `styles/overrides.css` — narrowly scoped readability overrides for accent-button labels and dark-mode chat, code, and composer surfaces.
+
+The pack does not bundle fonts; KiroCrew's selected font settings continue to apply.
+
+## Source palettes
+
+The KiroCrew palettes are derived from the Cobaltz Zed themes:
+
+- [Cobaltz dark for Zed](../cobaltz-zed/Cobaltz.json)
+- [Cobaltz light for Zed](../cobaltz-zed/Cobaltz-Light.json)
 
 ## License
 
