@@ -1,0 +1,19 @@
+[data-theme="custom-cobaltz-dark"] body,
+[data-theme="custom-cobaltz-light"] body {
+  --accent-fg: #FFFFFF;
+}
+
+[data-theme="custom-cobaltz-dark"] .message-bubble {
+  --accent: #B9D2FF;
+  --bg-elevated: #2D4051;
+}
+
+[data-theme="custom-cobaltz-dark"] .code-block {
+  --bg-elevated: #162B40;
+}
+
+[data-theme="custom-cobaltz-dark"] .input-area {
+  --muted: #B4CADB;
+  --border: #496B86;
+  --border-strong: #6487A1;
+}
