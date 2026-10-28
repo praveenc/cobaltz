@@ -1,201 +1,156 @@
-# Cobaltz Theme
+# Cobaltz
 
-A refined dark theme inspired by Cobalt2, featuring deep blue tones, vibrant syntax highlighting, and a signature golden cursor. Available for multiple editors and terminals.
+A refined take on [Cobalt2](https://github.com/wesbos/cobalt2-vscode): deep cobalt blues, vivid syntax colors, and a signature golden cursor. Dark and light variants for editors, terminals, and coding agents.
 
-![Cobaltz Theme](.github/images/cobaltz-preview.png)
+![Cobaltz in Kiro](.github/images/cobaltz-preview.png)
 
-## Features
+## Highlights
 
-- Deep blue background (`#0F2438`) that's easy on the eyes
-- Vibrant, carefully chosen syntax colors
-- Signature golden cursor (`#FFCC00`)
-- Blue status bar accent (`#3478C6`)
-- Both dark and light variants
-- Consistent experience across all supported platforms
+- Deep cobalt background (`#0F2438`) that stays easy on the eyes through long sessions
+- Vivid, balanced syntax colors that stay readable in both variants
+- Signature golden cursor (`#FFCC00`) and blue status bar accent (`#3478C6`)
+- Platform-tuned variants where an app derives its own UI from the palette, such as Rex
 
-## Supported Platforms
+## Platforms
 
-| Platform | Dark | Light | Installation |
-| -------- | ---- | ----- | ------------ |
-| [Zed](./cobaltz-zed/) | ✅ | ✅ | [Instructions](#zed) |
-| [VS Code / Cursor / Kiro](./cobaltz-vscode/) | ✅ | ✅ | [Instructions](#vs-code) |
-| [KiroCrew](./cobaltz-kirocrew/) | ✅ | ✅ | [Instructions](#kirocrew) |
-| [Obsidian](./cobaltz-obsidian/) | ✅ | ✅ | [Instructions](#obsidian) |
-| [Ghostty](./cobaltz-ghostty/) | ✅ | ✅ | [Instructions](#ghostty) |
-| [Rex](./cobaltz-rex/) | ✅ | - | [Instructions](#rex) |
-| [iTerm2 / Zsh](./cobaltz-zsh/) | ✅ | - | [Instructions](#iterm2--zsh) |
-| [Pi Coding Agent](./cobaltz-pi/) | ✅ | - | [Instructions](#pi-coding-agent) |
+| Platform | Dark | Light | Install |
+| -------- | :--: | :---: | ------- |
+| [Zed](https://zed.dev) | ✅ | ✅ | [Zed](#zed) |
+| [VS Code](https://code.visualstudio.com), Cursor, Windsurf, Kiro | ✅ | ✅ | [VS Code](#vs-code) |
+| [KiroCrew](./cobaltz-kirocrew/) | ✅ | ✅ | [KiroCrew](#kirocrew) |
+| [Obsidian](https://obsidian.md) | ✅ | ✅ | [Obsidian](#obsidian) |
+| [Ghostty](https://ghostty.org) | ✅ | ✅ | [Ghostty](#ghostty) |
+| [Rex](https://rex.superlogical.com) by Superlogical | ✅ | ✅ | [Rex](#rex) |
+| [iTerm2](https://iterm2.com) + Oh My Zsh | ✅ | - | [iTerm2 / Zsh](#iterm2--zsh) |
+| [Pi Coding Agent](https://github.com/earendil-works/pi) | ✅ | - | [Pi](#pi-coding-agent) |
+
+## Screenshots
+
+### Editors
+
+| | Dark | Light |
+| - | ---- | ----- |
+| **Zed** | ![Zed Dark](.github/images/cobaltz-zed.png) | ![Zed Light](.github/images/cobaltz-light-zed.png) |
+| **Kiro** | ![Kiro Dark](.github/images/cobaltz-kiro.png) | ![Kiro Light](.github/images/cobaltz-light-kiro.png) |
+| **VS Code** | ![VS Code Dark](.github/images/vscode-dark.png) | |
+
+### Terminals
+
+| Rex | iTerm2 |
+| --- | ------ |
+| ![Rex Dark](.github/images/cobaltz-rex.png) | ![iTerm2 Dark](cobaltz-zsh/terminal.png) |
 
 ## Color Palette
 
-### Dark Theme
-
-| Element | Color | Preview |
-| ------- | ----- | ------- |
-| Background | `#0F2438` | ![#0F2438](https://img.shields.io/badge/0F2438-0F2438?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
-| Foreground | `#FFFFFF` | ![#FFFFFF](https://img.shields.io/badge/FFFFFF-FFFFFF?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
-| Cursor | `#FFCC00` | ![#FFCC00](https://img.shields.io/badge/FFCC00-FFCC00?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
-| Keywords | `#F1A23A` | ![#F1A23A](https://img.shields.io/badge/F1A23A-F1A23A?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
-| Functions | `#82AAFF` | ![#82AAFF](https://img.shields.io/badge/82AAFF-82AAFF?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
-| Strings | `#6FD640` | ![#6FD640](https://img.shields.io/badge/6FD640-6FD640?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
-| Variables | `#ED99FA` | ![#ED99FA](https://img.shields.io/badge/ED99FA-ED99FA?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
-| Comments | `#3B86F7` | ![#3B86F7](https://img.shields.io/badge/3B86F7-3B86F7?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
-| Types | `#80CBC4` | ![#80CBC4](https://img.shields.io/badge/80CBC4-80CBC4?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
-| Numbers | `#EA79A3` | ![#EA79A3](https://img.shields.io/badge/EA79A3-EA79A3?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
-
-### Light Theme
-
-| Element | Color | Preview |
-| ------- | ----- | ------- |
-| Background | `#FAFBFC` | ![#FAFBFC](https://img.shields.io/badge/FAFBFC-FAFBFC?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
-| Foreground | `#0F2438` | ![#0F2438](https://img.shields.io/badge/0F2438-0F2438?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
-| Cursor | `#2563EB` | ![#2563EB](https://img.shields.io/badge/2563EB-2563EB?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
-| Keywords | `#D97706` | ![#D97706](https://img.shields.io/badge/D97706-D97706?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
-| Functions | `#2563EB` | ![#2563EB](https://img.shields.io/badge/2563EB-2563EB?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
-| Strings | `#059669` | ![#059669](https://img.shields.io/badge/059669-059669?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
-| Variables | `#9333EA` | ![#9333EA](https://img.shields.io/badge/9333EA-9333EA?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
-| Comments | `#6B7280` | ![#6B7280](https://img.shields.io/badge/6B7280-6B7280?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8cPj/fwAI+gPkQjKLkAAAAABJRU5ErkJggg==) |
+| Element | Dark | Light |
+| ------- | ---- | ----- |
+| Background | ![#0F2438](https://img.shields.io/badge/0F2438-0F2438?style=flat-square) | ![#FAFBFC](https://img.shields.io/badge/FAFBFC-FAFBFC?style=flat-square) |
+| Foreground | ![#FFFFFF](https://img.shields.io/badge/FFFFFF-FFFFFF?style=flat-square) | ![#0F2438](https://img.shields.io/badge/0F2438-0F2438?style=flat-square) |
+| Cursor | ![#FFCC00](https://img.shields.io/badge/FFCC00-FFCC00?style=flat-square) | ![#2563EB](https://img.shields.io/badge/2563EB-2563EB?style=flat-square) |
+| Keywords | ![#F1A23A](https://img.shields.io/badge/F1A23A-F1A23A?style=flat-square) | ![#D97706](https://img.shields.io/badge/D97706-D97706?style=flat-square) |
+| Functions | ![#82AAFF](https://img.shields.io/badge/82AAFF-82AAFF?style=flat-square) | ![#2563EB](https://img.shields.io/badge/2563EB-2563EB?style=flat-square) |
+| Strings | ![#6FD640](https://img.shields.io/badge/6FD640-6FD640?style=flat-square) | ![#059669](https://img.shields.io/badge/059669-059669?style=flat-square) |
+| Variables | ![#ED99FA](https://img.shields.io/badge/ED99FA-ED99FA?style=flat-square) | ![#9333EA](https://img.shields.io/badge/9333EA-9333EA?style=flat-square) |
+| Comments | ![#3B86F7](https://img.shields.io/badge/3B86F7-3B86F7?style=flat-square) | ![#6B7280](https://img.shields.io/badge/6B7280-6B7280?style=flat-square) |
+| Types | ![#80CBC4](https://img.shields.io/badge/80CBC4-80CBC4?style=flat-square) | ![#0F766E](https://img.shields.io/badge/0F766E-0F766E?style=flat-square) |
+| Numbers | ![#EA79A3](https://img.shields.io/badge/EA79A3-EA79A3?style=flat-square) | ![#BE185D](https://img.shields.io/badge/BE185D-BE185D?style=flat-square) |
 
 ## Installation
 
+Clone the repository first; every option below uses files from your clone.
+
+```bash
+git clone https://github.com/praveenc/cobaltz.git
+cd cobaltz
+```
+
 ### Zed
 
-1. Copy `cobaltz-zed/Cobaltz.json` and/or `cobaltz-zed/Cobaltz-Light.json` to `~/.config/zed/themes/`
-2. Open Zed Settings and select "Cobaltz" or "Cobaltz Light" as your theme
+1. Copy `cobaltz-zed/Cobaltz.json` and `cobaltz-zed/Cobaltz-Light.json` to `~/.config/zed/themes/`.
+2. In Zed, select **Cobaltz** or **Cobaltz Light** from the theme picker.
+
+See [`cobaltz-zed/README.md`](cobaltz-zed/README.md) for the install script.
 
 ### VS Code
 
-#### From VSIX (Local Install)
+Works with VS Code forks such as Cursor, Windsurf, and Kiro.
 
-1. Navigate to the `cobaltz-vscode` directory
-2. Run `npx vsce package` to create the `.vsix` file
-3. In VS Code: `Cmd+Shift+P` → "Install from VSIX" → select the file
-4. Select "Cobaltz" or "Cobaltz Light" from Color Theme settings
+- **From VSIX:** run `npx vsce package` in `cobaltz-vscode/`, then run **Extensions: Install from VSIX…** in VS Code and select the generated file.
+- **Manual:** copy the `cobaltz-vscode` folder to `~/.vscode/extensions/cobaltz-theme` (macOS and Linux) or `%USERPROFILE%\.vscode\extensions\cobaltz-theme` (Windows).
 
-#### Manual Install
-
-Copy the `cobaltz-vscode` folder to:
-- **macOS**: `~/.vscode/extensions/cobaltz-theme`
-- **Windows**: `%USERPROFILE%\.vscode\extensions\cobaltz-theme`
-- **Linux**: `~/.vscode/extensions/cobaltz-theme`
-
-Works with VS Code forks: Cursor, Windsurf, Kiro, etc.
+Then select **Cobaltz** or **Cobaltz Light** under **Preferences: Color Theme**.
 
 ### KiroCrew
 
-Cobaltz for KiroCrew is a standalone level-1 theme pack with dark and light palettes, readable chat and code surfaces, and Cobaltz-inspired file diffs.
+1. In KiroCrew, open **Settings → Display → Install theme**.
+2. Select the `cobaltz-kirocrew` folder.
+3. Select **Cobaltz** from the theme picker. KiroCrew switches palettes with your dark or light appearance.
 
-1. Clone or download this repository.
-2. In KiroCrew, open **Settings → Display → Install theme**.
-3. Select the `cobaltz-kirocrew` folder from your clone.
-4. Select **Cobaltz** from the theme picker. KiroCrew uses the corresponding palette when you switch between dark and light appearance.
-
-For pack details and update instructions, see [`cobaltz-kirocrew/README.md`](cobaltz-kirocrew/README.md).
+See [`cobaltz-kirocrew/README.md`](cobaltz-kirocrew/README.md) for pack details and updates.
 
 ### Obsidian
 
-1. Copy the `cobaltz-obsidian` folder to your vault's `.obsidian/themes/` directory
-2. Rename it to `Cobaltz`
-3. Go to Settings → Appearance → Themes → Select "Cobaltz"
+1. Copy the `cobaltz-obsidian` folder to your vault's `.obsidian/themes/` directory and rename it to `Cobaltz`.
+2. Open **Settings → Appearance → Themes** and select **Cobaltz**.
 
-The theme automatically switches between dark and light based on your system preference.
+The theme follows your system's dark or light appearance.
 
 ### Ghostty
 
-1. Copy theme files to your Ghostty themes directory:
-   ```bash
-   mkdir -p ~/.config/ghostty/themes
-   cp cobaltz-ghostty/cobaltz cobaltz-ghostty/cobaltz-light ~/.config/ghostty/themes/
-   ```
+```bash
+mkdir -p ~/.config/ghostty/themes
+cp cobaltz-ghostty/cobaltz cobaltz-ghostty/cobaltz-light ~/.config/ghostty/themes/
+```
 
-2. Add to `~/.config/ghostty/config`:
-   ```text
-   # Auto-switch based on system appearance
-   theme = dark:cobaltz,light:cobaltz-light
-   ```
+Then add this line to `~/.config/ghostty/config`:
+
+```text
+theme = dark:cobaltz,light:cobaltz-light
+```
+
+See [`cobaltz-ghostty/README.md`](cobaltz-ghostty/README.md) for transparency settings.
 
 ### Rex
 
-A Rex-tuned dark variant with a deeper cobalt background so pane borders and the focused pane stay distinct.
+[Rex](https://rex.superlogical.com) builds its window chrome from the theme colors, so it gets its own tuned variants with clear pane borders and a distinct active pane.
 
-1. In Rex, open the command palette and run **Import Theme File**
-2. Select `cobaltz-rex/cobaltz-rex` from your clone
-3. Run **Change Theme…** and select **cobaltz-rex**
+1. In Rex, open the command palette and run **Import Theme File**.
+2. Select `cobaltz-rex/Cobaltz-Dark`, then repeat for `cobaltz-rex/Cobaltz-Light`.
+3. Run **Change Theme…** and select **Cobaltz-Dark** for dark appearance and **Cobaltz-Light** for light appearance.
 
-For light appearance, import `cobaltz-ghostty/cobaltz-light`. See [`cobaltz-rex/README.md`](cobaltz-rex/README.md) for details.
+See [`cobaltz-rex/README.md`](cobaltz-rex/README.md) for what changes from the Ghostty colors and why.
+
+### iTerm2 / Zsh
+
+1. In iTerm2, open **Settings → Profiles → Colors → Color Presets → Import** and select `cobaltz-zsh/cobaltz.itermcolors`.
+2. Copy the prompt theme and set `ZSH_THEME="cobaltz"` in `~/.zshrc`:
+
+   ```bash
+   cp cobaltz-zsh/cobaltz.zsh-theme ~/.oh-my-zsh/themes/
+   ```
+
+3. Use a [Powerline-patched font](https://github.com/powerline/fonts), or turn on **Use built-in Powerline glyphs** in iTerm2.
 
 ### Pi Coding Agent
 
-Install the Cobaltz theme for [Pi Coding Agent](https://github.com/earendil-works/pi):
-
-#### Option 1: Symlink
+Link the theme into Pi's themes directory:
 
 ```bash
 mkdir -p ~/.pi/agent/themes
 ln -s "$(pwd)/cobaltz-pi/cobaltz.json" ~/.pi/agent/themes/cobaltz.json
 ```
 
-#### Option 2: Launch with theme flag
-
-```bash
-pi --theme ./cobaltz-pi/cobaltz.json
-```
-
-#### Option 3: Set in settings
-
-Add to `~/.pi/agent/settings.json`:
-```json
-{
-  "theme": "cobaltz"
-}
-```
-
-### iTerm2 / Zsh
-
-1. **iTerm2 Colors**: Import `cobaltz-zsh/cobaltz.itermcolors` via Preferences → Profiles → Colors → Color Presets → Import
-
-2. **Zsh Theme**:
-   ```bash
-   cp cobaltz-zsh/cobaltz.zsh-theme ~/.oh-my-zsh/themes/
-   ```
-   Then set `ZSH_THEME="cobaltz"` in `~/.zshrc`
-
-3. **Font**: Use a [Powerline-patched font](https://github.com/powerline/fonts) or enable "Use built-in Powerline glyphs" in iTerm2
-
-## Screenshots
-
-### Zed Editor (Dark)
-![Zed Dark](.github/images/cobaltz-zed.png)
-
-### Zed Editor (Light)
-![Zed Light](.github/images/cobaltz-light-zed.png)
-
-### Kiro Editor (Dark)
-![Kiro Dark](.github/images/cobaltz-kiro.png)
-
-### Kiro Editor (Light)
-![Kiro Light](.github/images/cobaltz-light-kiro.png)
+Then set `"theme": "cobaltz"` in `~/.pi/agent/settings.json`, or launch once with `pi --theme ./cobaltz-pi/cobaltz.json`.
 
 ## Contributing
 
-Contributions are welcome! Feel free to:
-
-- Report issues
-- Suggest improvements
-- Add support for new platforms
-- Submit pull requests
-
-## License
-
-MIT License - see [LICENSE](LICENSE) for details.
+Issues and pull requests are welcome, especially for new platforms. Each platform lives in its own `cobaltz-<platform>/` folder with a README.
 
 ## Credits
 
 - Inspired by [Cobalt2](https://github.com/wesbos/cobalt2-vscode) by Wes Bos
-- Color scheme refinements by Praveen Chamarthi
+- Created by Praveen Chamarthi ([@praveenc](https://github.com/praveenc))
 
-## Author
+## License
 
-**Praveen Chamarthi**
-
-- GitHub: [@praveenc](https://github.com/praveenc)
+MIT. See [LICENSE](LICENSE).
