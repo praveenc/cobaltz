@@ -36,9 +36,11 @@ A refined take on [Cobalt2](https://github.com/wesbos/cobalt2-vscode): deep coba
 
 ### Terminals
 
-| Rex | iTerm2 |
-| --- | ------ |
-| ![Rex Dark](.github/images/cobaltz-rex.png) | ![iTerm2 Dark](cobaltz-zsh/terminal.png) |
+| | Dark | Light |
+| - | ---- | ----- |
+| **Rex** | ![Rex Dark](.github/images/cobaltz-rex-dark.png) | ![Rex Light](.github/images/cobaltz-rex-light.png) |
+| **Ghostty** | ![Ghostty Dark](.github/images/cobaltz-ghostty-dark.png) | ![Ghostty Light](.github/images/cobaltz-ghostty-light.png) |
+| **iTerm2** | ![iTerm2 Dark](cobaltz-zsh/terminal.png) | |
 
 ## Color Palette
 

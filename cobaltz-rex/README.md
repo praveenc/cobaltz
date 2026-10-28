@@ -2,7 +2,9 @@
 
 Cobaltz tuned for [Rex](https://rex.superlogical.com), the terminal multiplexer by Superlogical. It keeps the Cobaltz hues, syntax accents, and cursor colors, and adjusts the base colors so Rex's pane borders, active-pane highlight, and selected tab stay distinct when several panes are open.
 
-![Cobaltz Dark in Rex](../.github/images/cobaltz-rex.png)
+| Dark | Light |
+| ---- | ----- |
+| ![Cobaltz Dark in Rex](../.github/images/cobaltz-rex-dark.png) | ![Cobaltz Light in Rex](../.github/images/cobaltz-rex-light.png) |
 
 ## Files
 
