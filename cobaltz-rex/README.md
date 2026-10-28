@@ -1,6 +1,6 @@
 # Cobaltz Theme for Rex
 
-Cobaltz tuned for [Rex](https://rex.superlogical.com), the terminal multiplexer by Superlogical. It keeps the Cobaltz hues, syntax accents, and cursor colors, and adjusts the base colors so Rex's pane borders, active-pane highlight, and selected tab stay distinct when several panes are open.
+Cobaltz tuned for [Rex](https://rex.superlogical.com), the terminal multiplexer by Superlogical. It keeps the Cobaltz blues and syntax accents, and adjusts the base and accent colors so Rex's pane borders, active-pane highlight, and selected tab stay distinct when several panes are open.
 
 | Dark | Light |
 | ---- | ----- |
@@ -26,14 +26,14 @@ Rex builds its window chrome from the theme's base colors, so the [Ghostty theme
 
 ### Dark
 
-Pane borders are fixed white overlays (7% for inactive panes, 10% for the active pane), and sidebars and raised surfaces step up in lightness from the background. Those values are tuned for the deep backgrounds of Rex's built-in dark themes. The Ghostty background (`#0F2438`) is brighter than any of them, so the same overlay adds less relative contrast and pane borders read faintly.
+Pane borders are fixed white overlays (7% for inactive panes, 10% for the active pane), and sidebars and raised surfaces step up in lightness from the background. On the Cobaltz page blue (`#0F2438`), those overlays land on the Cobaltz layer blues: `#20354A` for inactive panes and `#2D4051` for the active pane. Rex also uses the cursor color as its accent for sidebar icons and focus, so the dark variant moves the accent from gold to blue.
 
 | Element | Ghostty | Rex | Reason |
 | ------- | ------- | --- | ------ |
-| Background | `#0F2438` | `#051626` | Same cobalt hue at the depth of Rex's built-in dark themes, so pane borders read clearly |
 | Foreground | `#FFFFFF` | `#E7EEF5` | Cool soft white in the range Rex's built-in themes use, with less glare across many panes |
-| Selection | `#3D5A73` | `#183B5C` | Saturated cobalt one step above the canvas |
-| Black (ANSI 0) | `#0F2438` | `#0F2438` | Now sits one step above the background instead of matching it |
+| Cursor | `#FFCC00` | `#82AAFF` | Rex's accent: Cobaltz blue for sidebar icons and focus, as in the Cobaltz function color |
+| Selection | `#3D5A73` | `#3478C6` | Cobalt selection with white text at 4.5:1 contrast |
+| Black (ANSI 0) | `#0F2438` | `#20354A` | Cobaltz sidebar blue, one step above the background instead of matching it |
 
 ### Light
 
@@ -45,16 +45,16 @@ Rex fills the active pane and the selected tab with surfaces lifted toward white
 | Selection | `#DBEAFE` | `#C4DCF7` | Deeper blue so selections stand out against the tinted background |
 | White (ANSI 7) | `#F9FAFB` | `#CBD5E1` | Light gray that stays visible on the background |
 
-Cursor colors and every other ANSI color are unchanged in both variants. Rex uses the cursor color as its accent, so the focus highlight is Cobaltz gold in dark and Cobaltz blue in light.
+The dark background matches the Ghostty theme, and the light cursor and every other ANSI color are unchanged in both variants.
 
 ## Color Palette
 
 | Element    | Dark      | Light     |
 | ---------- | --------- | --------- |
-| Background | `#051626` | `#EFF4FA` |
+| Background | `#0F2438` | `#EFF4FA` |
 | Foreground | `#E7EEF5` | `#0F2438` |
-| Cursor     | `#FFCC00` | `#2563EB` |
-| Selection  | `#183B5C` | `#C4DCF7` |
+| Cursor     | `#82AAFF` | `#2563EB` |
+| Selection  | `#3478C6` | `#C4DCF7` |
 | Red        | `#EA4025` | `#DC2626` |
 | Green      | `#70D149` | `#059669` |
 | Yellow     | `#ECD146` | `#D97706` |
