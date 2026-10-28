@@ -22,6 +22,7 @@ A refined dark theme inspired by Cobalt2, featuring deep blue tones, vibrant syn
 | [KiroCrew](./cobaltz-kirocrew/) | ✅ | ✅ | [Instructions](#kirocrew) |
 | [Obsidian](./cobaltz-obsidian/) | ✅ | ✅ | [Instructions](#obsidian) |
 | [Ghostty](./cobaltz-ghostty/) | ✅ | ✅ | [Instructions](#ghostty) |
+| [Rex](./cobaltz-rex/) | ✅ | - | [Instructions](#rex) |
 | [iTerm2 / Zsh](./cobaltz-zsh/) | ✅ | - | [Instructions](#iterm2--zsh) |
 | [Pi Coding Agent](./cobaltz-pi/) | ✅ | - | [Instructions](#pi-coding-agent) |
 
@@ -112,6 +113,16 @@ The theme automatically switches between dark and light based on your system pre
    # Auto-switch based on system appearance
    theme = dark:cobaltz,light:cobaltz-light
    ```
+
+### Rex
+
+A Rex-tuned dark variant with a deeper cobalt background so pane borders and the focused pane stay distinct.
+
+1. In Rex, open the command palette and run **Import Theme File**
+2. Select `cobaltz-rex/cobaltz-rex` from your clone
+3. Run **Change Theme…** and select **cobaltz-rex**
+
+For light appearance, import `cobaltz-ghostty/cobaltz-light`. See [`cobaltz-rex/README.md`](cobaltz-rex/README.md) for details.
 
 ### Pi Coding Agent
 
