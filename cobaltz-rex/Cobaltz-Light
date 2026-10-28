@@ -1,0 +1,50 @@
+# Cobaltz Light for Rex
+# Cobaltz Light tuned for Rex's derived window chrome.
+# Rex lifts panes and the selected tab toward white from the
+# background, so the background sits just below white with a
+# cool cobalt tint to leave room for those lifts.
+
+# Base colors (cool cobalt tint, Cobaltz navy text)
+background = #EFF4FA
+foreground = #0F2438
+
+# Cursor (also Rex's accent and focus color)
+cursor-color = #2563EB
+cursor-text = #FFFFFF
+
+# Selection
+selection-background = #C4DCF7
+selection-foreground = #0F2438
+
+# ANSI Colors (0-7: normal, 8-15: bright)
+# Black
+palette = 0=#1F2937
+palette = 8=#6B7280
+
+# Red
+palette = 1=#DC2626
+palette = 9=#EF4444
+
+# Green
+palette = 2=#059669
+palette = 10=#10B981
+
+# Yellow
+palette = 3=#D97706
+palette = 11=#F59E0B
+
+# Blue
+palette = 4=#2563EB
+palette = 12=#3B82F6
+
+# Magenta
+palette = 5=#9333EA
+palette = 13=#A855F7
+
+# Cyan
+palette = 6=#0891B2
+palette = 14=#06B6D4
+
+# White (light gray so it stays visible on the background)
+palette = 7=#CBD5E1
+palette = 15=#FFFFFF
