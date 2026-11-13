@@ -8,10 +8,10 @@ Cobaltz is a KiroCrew theme pack built from the Cobaltz dark and light palettes.
 
 The dark palette uses a layered Cobaltz blue hierarchy so each workspace surface remains distinct:
 
-- The chat canvas uses a balanced blue (`#20354A`).
-- User messages use the deeper Cobaltz navy (`#0F2438`).
-- The composer and fenced-code surfaces use a darker blue (`#162B40`).
-- Primary controls use a restrained blue accent with white labels; focus uses Cobaltz gold (`#FFCC00`).
+- The chat canvas uses the deep Cobaltz navy (`#0F2438`).
+- User messages use a raised blue (`#2D4051`).
+- Fenced-code surfaces use a lighter blue (`#20354A`), and the composer uses `#2D4051`.
+- Primary controls use a bright blue accent (`#82AAFF`) with dark labels (`#0F2438`); focus uses Cobaltz gold (`#FFCC00`).
 - Inline code, suggested prompts, and semantic diffs receive scoped readability treatments for the dark canvas.
 
 ### Light
@@ -37,7 +37,7 @@ KiroCrew validates the pack during installation. To update it after pulling or e
 
 - `theme.json` — manifest identifying the pack as a level-1 KiroCrew theme.
 - `variables.json` — dark and light Cobaltz palettes for KiroCrew surfaces, controls, feedback states, and diffs.
-- `styles/overrides.css` — narrowly scoped readability overrides for accent-button labels and dark-mode chat, code, and composer surfaces.
+- `styles/overrides.css` — narrowly scoped readability overrides for dark-mode chat, code, and composer surfaces.
 
 The pack does not bundle fonts; KiroCrew's selected font settings continue to apply.
 

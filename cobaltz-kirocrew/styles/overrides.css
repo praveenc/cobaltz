@@ -1,19 +1,15 @@
-[data-theme="custom-cobaltz-dark"] body,
-[data-theme="custom-cobaltz-light"] body {
-  --accent-fg: #FFFFFF;
-}
-
 [data-theme="custom-cobaltz-dark"] .message-bubble {
-  --accent: #B9D2FF;
-  --bg-elevated: #2D4051;
+  --accent: #95E5F8;
+  --bg-elevated: #20354A;
 }
 
 [data-theme="custom-cobaltz-dark"] .code-block {
-  --bg-elevated: #162B40;
+  --bg-elevated: #20354A;
 }
 
 [data-theme="custom-cobaltz-dark"] .input-area {
-  --muted: #B4CADB;
-  --border: #496B86;
-  --border-strong: #6487A1;
+  --bg-elevated: #2D4051;
+  --muted: #A8C6DC;
+  --border: #36536B;
+  --border-strong: #6B8AA3;
 }
