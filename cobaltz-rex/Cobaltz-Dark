@@ -1,15 +1,15 @@
 # Cobaltz Dark for Rex
 # Cobaltz tuned for Rex's derived window chrome.
-# Rex draws pane borders as fixed white lifts over the background.
-# On the Cobaltz page blue those lifts land on the Cobaltz layer
-# blues: #20354A for inactive panes, #2D4051 for the active pane.
+# Rex draws the sidebar a step darker than the background, so the
+# background is lifted until the sidebar lands on the Cobaltz
+# sidebar blue (#20354A).
 
-# Base colors (Cobaltz page blue, softened white)
-background = #0F2438
+# Base colors (lifted Cobaltz navy, softened white)
+background = #223951
 foreground = #E7EEF5
 
-# Cursor (also Rex's accent: sidebar icons and focus)
-cursor-color = #82AAFF
+# Cursor (also Rex's accent: shell icons and focus, Cobaltz green)
+cursor-color = #70D149
 cursor-text = #0F2438
 
 # Selection (cobalt, white text at 4.5:1)
@@ -17,9 +17,9 @@ selection-background = #3478C6
 selection-foreground = #FFFFFF
 
 # ANSI Colors (0-7: normal, 8-15: bright)
-# Black (Cobaltz sidebar blue, one step above the page)
-palette = 0=#20354A
-palette = 8=#5C7A99
+# Black (Cobaltz page blue, darker than the lifted background)
+palette = 0=#0F2438
+palette = 8=#7A95AD
 
 # Red
 palette = 1=#EA4025

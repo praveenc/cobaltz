@@ -26,14 +26,18 @@ Rex builds its window chrome from the theme's base colors, so the [Ghostty theme
 
 ### Dark
 
-Pane borders are fixed white overlays (7% for inactive panes, 10% for the active pane), and sidebars and raised surfaces step up in lightness from the background. On the Cobaltz page blue (`#0F2438`), those overlays land on the Cobaltz layer blues: `#20354A` for inactive panes and `#2D4051` for the active pane. Rex also uses the cursor color as its accent for sidebar icons and focus, so the dark variant moves the accent from gold to blue.
+Rex derives the sidebar from the background and always draws it a step darker than the panes.
+A theme can't set the sidebar color directly, so the dark variant lifts the background to `#223951`, which puts the sidebar on the Cobaltz sidebar blue (`#1F344A` on screen, against `#20354A` in Cobaltz).
+The trade-off is a lighter navy in the panes than the Cobaltz page blue (`#0F2438`).
+Rex also uses the cursor color as its accent for shell icons and focus, so the dark variant moves the accent from gold to the Cobaltz green.
 
 | Element | Ghostty | Rex | Reason |
 | ------- | ------- | --- | ------ |
 | Foreground | `#FFFFFF` | `#E7EEF5` | Cool soft white in the range Rex's built-in themes use, with less glare across many panes |
-| Cursor | `#FFCC00` | `#82AAFF` | Rex's accent: Cobaltz blue for sidebar icons and focus, as in the Cobaltz function color |
+| Background | `#0F2438` | `#223951` | Lifted so Rex's derived sidebar lands on the Cobaltz sidebar blue |
+| Cursor | `#FFCC00` | `#70D149` | Rex's accent: Cobaltz green for shell icons and focus |
 | Selection | `#3D5A73` | `#3478C6` | Cobalt selection with white text at 4.5:1 contrast |
-| Black (ANSI 0) | `#0F2438` | `#20354A` | Cobaltz sidebar blue, one step above the background instead of matching it |
+| Bright black (ANSI 8) | `#5C7A99` | `#7A95AD` | Dim text such as comments stays readable (3.8:1) on the lifted background |
 
 ### Light
 
@@ -45,15 +49,15 @@ Rex fills the active pane and the selected tab with surfaces lifted toward white
 | Selection | `#DBEAFE` | `#C4DCF7` | Deeper blue so selections stand out against the tinted background |
 | White (ANSI 7) | `#F9FAFB` | `#CBD5E1` | Light gray that stays visible on the background |
 
-The dark background matches the Ghostty theme, and the light cursor and every other ANSI color are unchanged in both variants.
+The light cursor and every other ANSI color are unchanged in both variants.
 
 ## Color Palette
 
 | Element    | Dark      | Light     |
 | ---------- | --------- | --------- |
-| Background | `#0F2438` | `#EFF4FA` |
+| Background | `#223951` | `#EFF4FA` |
 | Foreground | `#E7EEF5` | `#0F2438` |
-| Cursor     | `#82AAFF` | `#2563EB` |
+| Cursor     | `#70D149` | `#2563EB` |
 | Selection  | `#3478C6` | `#C4DCF7` |
 | Red        | `#EA4025` | `#DC2626` |
 | Green      | `#70D149` | `#059669` |
