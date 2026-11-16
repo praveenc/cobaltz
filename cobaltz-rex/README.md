@@ -27,17 +27,17 @@ Rex builds its window chrome from the theme's base colors, so the [Ghostty theme
 ### Dark
 
 Rex derives the sidebar from the background and always draws it a step darker than the panes.
-A theme can't set the sidebar color directly, so the dark variant lifts the background to `#223951`, which puts the sidebar on the Cobaltz sidebar blue (`#1F344A` on screen, against `#20354A` in Cobaltz).
-The trade-off is a lighter navy in the panes than the Cobaltz page blue (`#0F2438`).
+On the Cobaltz page blue (`#0F2438`) the sidebar comes out almost black, so the dark variant lifts the background a step to `#182E44`, which keeps the sidebar a distinct blue.
+Pane borders are fixed white overlays (7% for inactive panes, 10% for the active pane) over that background.
 Rex also uses the cursor color as its accent for shell icons and focus, so the dark variant moves the accent from gold to the Cobaltz green.
 
 | Element | Ghostty | Rex | Reason |
 | ------- | ------- | --- | ------ |
+| Background | `#0F2438` | `#182E44` | A step lighter so Rex's derived sidebar stays blue instead of near-black |
 | Foreground | `#FFFFFF` | `#E7EEF5` | Cool soft white in the range Rex's built-in themes use, with less glare across many panes |
-| Background | `#0F2438` | `#223951` | Lifted so Rex's derived sidebar lands on the Cobaltz sidebar blue |
 | Cursor | `#FFCC00` | `#70D149` | Rex's accent: Cobaltz green for shell icons and focus |
 | Selection | `#3D5A73` | `#3478C6` | Cobalt selection with white text at 4.5:1 contrast |
-| Bright black (ANSI 8) | `#5C7A99` | `#7A95AD` | Dim text such as comments stays readable (3.8:1) on the lifted background |
+| Black (ANSI 0) | `#0F2438` | `#20354A` | Cobaltz sidebar blue, one step above the background instead of matching it |
 
 ### Light
 
@@ -55,7 +55,7 @@ The light cursor and every other ANSI color are unchanged in both variants.
 
 | Element    | Dark      | Light     |
 | ---------- | --------- | --------- |
-| Background | `#223951` | `#EFF4FA` |
+| Background | `#182E44` | `#EFF4FA` |
 | Foreground | `#E7EEF5` | `#0F2438` |
 | Cursor     | `#70D149` | `#2563EB` |
 | Selection  | `#3478C6` | `#C4DCF7` |
